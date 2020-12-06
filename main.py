@@ -8,7 +8,7 @@ def resource_path(relative_path):
 	try:
 		base_path = os.path.join(sys._MEIPASS, 'data')
 	except Exception:
-		base_path = 'D:\\Works\\Computer\\python-term2\\skill\\gcd&lcm'
+		base_path = '...' # folder path of code
 	return os.path.join(base_path, relative_path)
 
 def main():
